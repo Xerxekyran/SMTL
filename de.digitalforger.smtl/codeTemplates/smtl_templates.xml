@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.scala-ide.sdt.core.templates" deleted="false" description="Lazy Rule block" enabled="true" name="SMTL-Lazy Rule">val ${rule} = new Rule[${A}, ${B}] isLazy() when ( (${source}) =&gt; {&#13;
+		true&#13;
+	}) perform ((${s}, ${t}) =&gt; {&#13;
+		// TODO: your transformation code here&#13;
+	})</template><template autoinsert="true" context="org.scala-ide.sdt.core.templates" deleted="false" description="Model to Model Transformation block" enabled="true" name="SMTL-M2M-Transformation">val ${transformation} = new Transformation M2M from "http://..." to "http://..."</template><template autoinsert="true" context="org.scala-ide.sdt.core.templates" deleted="false" description="Model to Text Transformation block" enabled="true" name="SMTL-M2T-Transformation">val ${transformation} = new TransformationM2T from "http://..." using ${generator} transform ${inputFile}</template><template autoinsert="true" context="org.scala-ide.sdt.core.templates" deleted="false" description="Not Unique Rule block" enabled="true" name="SMTL-Not Unique Rule">val ${rule} = new Rule[${A}, ${B}] isNotUnique() when ( (${source}) =&gt; {&#13;
+		true&#13;
+	}) perform ((${s}, ${t}) =&gt; {&#13;
+		// TODO: your transformation code here&#13;
+	})</template><template autoinsert="true" context="org.scala-ide.sdt.core.templates" deleted="false" description="Rule block" enabled="true" name="SMTL-Rule">val ${rule} = new Rule[${A}, ${B}] when ( (${source}) =&gt; {&#13;
+		true&#13;
+	}) perform ((${s}, ${t}) =&gt; {&#13;
+		// TODO: your transformation code here&#13;
+	})</template></templates>
